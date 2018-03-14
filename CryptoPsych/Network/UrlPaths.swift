@@ -10,7 +10,7 @@
 
 import Foundation
 
-let BASE_URL = "http://api2.zingbites.com/"
+let BASE_URL = "https://min-api.cryptocompare.com/data/pricehistorical?fsym=%@&tsyms=%@&ts=%@&extraParams=your_app_name"
 
 let URI_CHL_LIST = "challenge/list/1/999"
 

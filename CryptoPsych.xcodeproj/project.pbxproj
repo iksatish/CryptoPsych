@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18972D00159373B185394F7D /* Pods_CryptoPsych.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C7F4B5D0BFBB37EBE746A17 /* Pods_CryptoPsych.framework */; };
 		223053322030C7C000FACDC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223053312030C7C000FACDC7 /* AppDelegate.swift */; };
 		223053342030C7C000FACDC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223053332030C7C000FACDC7 /* ViewController.swift */; };
 		223053372030C7C000FACDC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223053352030C7C000FACDC7 /* Main.storyboard */; };
 		223053392030C7C000FACDC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 223053382030C7C000FACDC7 /* Assets.xcassets */; };
 		2230533C2030C7C000FACDC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2230533A2030C7C000FACDC7 /* LaunchScreen.storyboard */; };
+		223053672056786000FACDC7 /* Test.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 223053662056786000FACDC7 /* Test.mlmodel */; };
+		2230536C2058E15100FACDC7 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2230536B2058E15100FACDC7 /* ApiClient.swift */; };
+		223053742058E1BA00FACDC7 /* ChallengeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2230536E2058E1B900FACDC7 /* ChallengeModel.swift */; };
+		223053752058E1BA00FACDC7 /* ApiResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2230536F2058E1B900FACDC7 /* ApiResponseModel.swift */; };
+		223053762058E1BA00FACDC7 /* UrlPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223053702058E1BA00FACDC7 /* UrlPaths.swift */; };
+		223053772058E1BA00FACDC7 /* AuthenticatorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223053722058E1BA00FACDC7 /* AuthenticatorService.swift */; };
+		223053782058E1BA00FACDC7 /* ChallengeListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223053732058E1BA00FACDC7 /* ChallengeListService.swift */; };
+		2230537A2058EB8B00FACDC7 /* HistoricalDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223053792058EB8B00FACDC7 /* HistoricalDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C7F4B5D0BFBB37EBE746A17 /* Pods_CryptoPsych.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoPsych.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2230532E2030C7C000FACDC7 /* CryptoPsych.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoPsych.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		223053312030C7C000FACDC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		223053332030C7C000FACDC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,16 @@
 		223053382030C7C000FACDC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2230533B2030C7C000FACDC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2230533D2030C7C000FACDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		223053662056786000FACDC7 /* Test.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Test.mlmodel; sourceTree = "<group>"; };
+		2230536B2058E15100FACDC7 /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		2230536E2058E1B900FACDC7 /* ChallengeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeModel.swift; sourceTree = "<group>"; };
+		2230536F2058E1B900FACDC7 /* ApiResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiResponseModel.swift; sourceTree = "<group>"; };
+		223053702058E1BA00FACDC7 /* UrlPaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlPaths.swift; sourceTree = "<group>"; };
+		223053722058E1BA00FACDC7 /* AuthenticatorService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticatorService.swift; sourceTree = "<group>"; };
+		223053732058E1BA00FACDC7 /* ChallengeListService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeListService.swift; sourceTree = "<group>"; };
+		223053792058EB8B00FACDC7 /* HistoricalDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalDataService.swift; sourceTree = "<group>"; };
+		D335263FA480BFE75E9FB854 /* Pods-CryptoPsych.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoPsych.release.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoPsych/Pods-CryptoPsych.release.xcconfig"; sourceTree = "<group>"; };
+		E73B17A376A5A598BF1EEED5 /* Pods-CryptoPsych.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoPsych.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoPsych/Pods-CryptoPsych.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18972D00159373B185394F7D /* Pods_CryptoPsych.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +61,8 @@
 			children = (
 				223053302030C7C000FACDC7 /* CryptoPsych */,
 				2230532F2030C7C000FACDC7 /* Products */,
+				C1EF6A6CF3B1A7E33E547797 /* Pods */,
+				51CBA65667264B83949C7003 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +77,71 @@
 		223053302030C7C000FACDC7 /* CryptoPsych */ = {
 			isa = PBXGroup;
 			children = (
+				223053692058E0FE00FACDC7 /* Network */,
 				223053312030C7C000FACDC7 /* AppDelegate.swift */,
 				223053332030C7C000FACDC7 /* ViewController.swift */,
 				223053352030C7C000FACDC7 /* Main.storyboard */,
 				223053382030C7C000FACDC7 /* Assets.xcassets */,
+				223053662056786000FACDC7 /* Test.mlmodel */,
 				2230533A2030C7C000FACDC7 /* LaunchScreen.storyboard */,
 				2230533D2030C7C000FACDC7 /* Info.plist */,
 			);
 			path = CryptoPsych;
+			sourceTree = "<group>";
+		};
+		223053692058E0FE00FACDC7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2230536D2058E1B900FACDC7 /* Model */,
+				223053712058E1BA00FACDC7 /* Services */,
+				223053702058E1BA00FACDC7 /* UrlPaths.swift */,
+				2230536A2058E15100FACDC7 /* ApiClient */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2230536A2058E15100FACDC7 /* ApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				2230536B2058E15100FACDC7 /* ApiClient.swift */,
+			);
+			path = ApiClient;
+			sourceTree = "<group>";
+		};
+		2230536D2058E1B900FACDC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2230536E2058E1B900FACDC7 /* ChallengeModel.swift */,
+				2230536F2058E1B900FACDC7 /* ApiResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		223053712058E1BA00FACDC7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				223053722058E1BA00FACDC7 /* AuthenticatorService.swift */,
+				223053732058E1BA00FACDC7 /* ChallengeListService.swift */,
+				223053792058EB8B00FACDC7 /* HistoricalDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		51CBA65667264B83949C7003 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C7F4B5D0BFBB37EBE746A17 /* Pods_CryptoPsych.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1EF6A6CF3B1A7E33E547797 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E73B17A376A5A598BF1EEED5 /* Pods-CryptoPsych.debug.xcconfig */,
+				D335263FA480BFE75E9FB854 /* Pods-CryptoPsych.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 223053402030C7C000FACDC7 /* Build configuration list for PBXNativeTarget "CryptoPsych" */;
 			buildPhases = (
+				5E49112441F1F7CE0AE39604 /* [CP] Check Pods Manifest.lock */,
 				2230532A2030C7C000FACDC7 /* Sources */,
 				2230532B2030C7C000FACDC7 /* Frameworks */,
 				2230532C2030C7C000FACDC7 /* Resources */,
+				C5A4D14EE9B8D304629CC7C3 /* [CP] Embed Pods Frameworks */,
+				C9901D13D38C8D0BDAAEAE99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +214,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E49112441F1F7CE0AE39604 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoPsych-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5A4D14EE9B8D304629CC7C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CryptoPsych/Pods-CryptoPsych-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/ChartsRealm/ChartsRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChartsRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CryptoPsych/Pods-CryptoPsych-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9901D13D38C8D0BDAAEAE99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CryptoPsych/Pods-CryptoPsych-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2230532A2030C7C000FACDC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				223053762058E1BA00FACDC7 /* UrlPaths.swift in Sources */,
+				223053782058E1BA00FACDC7 /* ChallengeListService.swift in Sources */,
+				223053772058E1BA00FACDC7 /* AuthenticatorService.swift in Sources */,
+				223053672056786000FACDC7 /* Test.mlmodel in Sources */,
 				223053342030C7C000FACDC7 /* ViewController.swift in Sources */,
 				223053322030C7C000FACDC7 /* AppDelegate.swift in Sources */,
+				2230536C2058E15100FACDC7 /* ApiClient.swift in Sources */,
+				2230537A2058EB8B00FACDC7 /* HistoricalDataService.swift in Sources */,
+				223053742058E1BA00FACDC7 /* ChallengeModel.swift in Sources */,
+				223053752058E1BA00FACDC7 /* ApiResponseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +437,11 @@
 		};
 		223053412030C7C000FACDC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E73B17A376A5A598BF1EEED5 /* Pods-CryptoPsych.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XW5NLCV4RC;
 				INFOPLIST_FILE = CryptoPsych/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ik.CryptoPsych;
@@ -286,9 +453,11 @@
 		};
 		223053422030C7C000FACDC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D335263FA480BFE75E9FB854 /* Pods-CryptoPsych.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XW5NLCV4RC;
 				INFOPLIST_FILE = CryptoPsych/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ik.CryptoPsych;

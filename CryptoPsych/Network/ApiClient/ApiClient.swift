@@ -1,6 +1,6 @@
 //
 //  ApiClient.swift
-//  MyGrocery
+//  CryptoPsych
 //
 //  Created by Satish Kumar R Kancherla on 10/26/17.
 //  Copyright © 2017 Thrumpit. All rights reserved.

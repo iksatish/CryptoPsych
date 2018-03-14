@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HistoricalMinuteDataService: NSObject {
+class HistoricalDataService: NSObject {
 
     static let instance = HistoricalMinuteDataService()
     
